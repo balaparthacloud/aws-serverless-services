@@ -5,6 +5,7 @@
 
 aws-serverless-scripts/credentials.csv
 aws-serverless-scripts/.serverless
+carebnb-serverless.iml
 
 # User-specific stuff
 .idea/**/workspace.xml
