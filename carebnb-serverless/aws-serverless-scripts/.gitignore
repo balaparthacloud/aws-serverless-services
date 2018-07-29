@@ -1,7 +1,4 @@
 # package directories
 node_modules
-db-config.json
+ffg-care-bnb-user-profile/db-config.json
 credentials.csv
-
-# Serverless directories
-.serverless
