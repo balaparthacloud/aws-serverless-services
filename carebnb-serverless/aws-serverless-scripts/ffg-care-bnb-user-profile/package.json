@@ -1,0 +1,8 @@
+{
+  "name": "aws-serverless-scripts",
+  "version": "0.0.1",
+  "description": "",
+  "dependencies": {
+    "mysql": "^2.15.0"
+  }
+}

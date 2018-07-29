@@ -1,0 +1,6 @@
+{
+    "dbhost"     : "ffgdot1.cytfsw6c1cr0.ap-southeast-1.rds.amazonaws.com",
+    "dbuser"     : "ffgdot1",
+    "dbpassword" : "**********",
+    "dbname"     : "ffgdot1"
+}

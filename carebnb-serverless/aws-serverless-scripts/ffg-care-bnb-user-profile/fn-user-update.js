@@ -1,16 +1,38 @@
 'use strict';
 
-module.exports.update = (event, context, callback) => {
-    const response = {
-        statusCode: 200,
-        body: JSON.stringify({
-            message: 'update',
-            input: event,
-        }),
-    };
+var mysql = require('mysql');
+var config = require('./db-config.json');
+var pool  = mysql.createPool({
+    host     : config.dbhost,
+    user     : config.dbuser,
+    password : config.dbpassword,
+    database : config.dbname,
+    port : 3306,
+});
 
-    callback(null, response);
+var debug=false;
 
-    // Use this code if you don't use the http event with the LAMBDA-PROXY integration
-    // callback(null, { message: 'Go Serverless v1.0! Your function executed successfully!', event });
+module.exports.update =  (event, context, callback) => {
+    //prevent timeout from waiting event loop
+    context.callbackWaitsForEmptyEventLoop = false;
+
+    pool.getConnection(function(err, connection) {
+        // Use the connection
+        if (err) {
+            console.log("Error in connection database"+err);
+            return;
+        }
+        if(debug)console.dir(connection);
+        connection.query('SELECT * from user', function (error, results, fields) {
+
+            // And done with the connection.
+            connection.release();
+            // Handle error after the release.
+            if (error){
+                callback(error);
+            }else{
+                callback(null,results);
+            }
+        });
+    });
 };
