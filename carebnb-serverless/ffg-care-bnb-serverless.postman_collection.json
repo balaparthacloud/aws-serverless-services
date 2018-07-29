@@ -1,0 +1,135 @@
+{
+	"info": {
+		"name": "ffg-care-bnb-serverless",
+		"_postman_id": "e4253693-bb72-9861-9650-ba8af8db7e25",
+		"description": "serverless email sending",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://ej1jj44iye.execute-api.us-east-1.amazonaws.com/default/ffg-care-bnb-dev-ping",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://ej1jj44iye.execute-api.us-east-1.amazonaws.com/default/ffg-care-bnb-dev-ping",
+					"protocol": "https",
+					"host": [
+						"ej1jj44iye",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"default",
+						"ffg-care-bnb-dev-ping"
+					]
+				},
+				"description": "ping service"
+			},
+			"response": []
+		},
+		{
+			"name": "https://wtccrtoii5.execute-api.us-east-1.amazonaws.com/default/ffg-care-bnb-dev-userCreate",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://wtccrtoii5.execute-api.us-east-1.amazonaws.com/default/ffg-care-bnb-dev-userCreate",
+					"protocol": "https",
+					"host": [
+						"wtccrtoii5",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"default",
+						"ffg-care-bnb-dev-userCreate"
+					]
+				},
+				"description": "create user"
+			},
+			"response": []
+		},
+		{
+			"name": "https://utiio32r45.execute-api.us-east-1.amazonaws.com/default/ffg-care-bnb-dev-userRead",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://utiio32r45.execute-api.us-east-1.amazonaws.com/default/ffg-care-bnb-dev-userRead",
+					"protocol": "https",
+					"host": [
+						"utiio32r45",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"default",
+						"ffg-care-bnb-dev-userRead"
+					]
+				},
+				"description": "Read"
+			},
+			"response": []
+		},
+		{
+			"name": "https://92uivtafp1.execute-api.us-east-1.amazonaws.com/dev/ffg-care-bnb-user-profile",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://92uivtafp1.execute-api.us-east-1.amazonaws.com/dev/ffg-care-bnb-user-profile",
+					"protocol": "https",
+					"host": [
+						"92uivtafp1",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev",
+						"ffg-care-bnb-user-profile"
+					]
+				},
+				"description": "delete"
+			},
+			"response": []
+		},
+		{
+			"name": "https://4s0vu060z1.execute-api.us-east-1.amazonaws.com/default/ffg-care-bnb-dev-userUpdate",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://4s0vu060z1.execute-api.us-east-1.amazonaws.com/default/ffg-care-bnb-dev-userUpdate",
+					"protocol": "https",
+					"host": [
+						"4s0vu060z1",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"default",
+						"ffg-care-bnb-dev-userUpdate"
+					]
+				},
+				"description": "update"
+			},
+			"response": []
+		}
+	]
+}

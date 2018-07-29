@@ -1,0 +1,255 @@
+{
+	"id": "6232528e-bd0c-457d-a232-f708e877f703",
+	"name": "ffg-care-bnb-serverless",
+	"allTests": [],
+	"timestamp": "2018-07-29T04:06:41.502Z",
+	"collection_id": "e4253693-bb72-9861-9650-ba8af8db7e25",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "no-environment",
+	"data": [],
+	"delay": 0,
+	"count": 1,
+	"collection": {
+		"id": "e4253693-bb72-9861-9650-ba8af8db7e25",
+		"name": "ffg-care-bnb-serverless",
+		"description": "serverless email sending",
+		"order": [
+			"ebd4ad22-89a3-27d1-7ddc-6d666826cb98",
+			"49f92104-0b6f-2d8b-a6ed-ffcc43aa4932",
+			"f7aec11d-2a85-c6e3-abfe-355254180a02",
+			"c86d3d9e-bec4-30d6-b739-ad81b385a562",
+			"3642aba8-96e1-19f2-536b-43a437a6a12d"
+		],
+		"folders": [],
+		"folders_order": [],
+		"timestamp": 1532788829764,
+		"synced": false,
+		"remote_id": 0,
+		"owner": "3266136",
+		"sharedWithTeam": false,
+		"subscribed": false,
+		"remoteLink": "",
+		"remoteLinkUpdatedAt": null,
+		"public": false,
+		"createdAt": 1532788829764,
+		"updatedAt": 1532799883321,
+		"write": true,
+		"published": false,
+		"favorite": true,
+		"permissions": {},
+		"syncedPermissions": {}
+	},
+	"folder": null,
+	"environment": null,
+	"globals": [],
+	"results": [
+		{
+			"name": "https://ej1jj44iye.execute-api.us-east-1.amazonaws.com/default/ffg-care-bnb-dev-ping",
+			"id": "ebd4ad22-89a3-27d1-7ddc-6d666826cb98",
+			"url": "https://ej1jj44iye.execute-api.us-east-1.amazonaws.com/default/ffg-care-bnb-dev-ping",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"1037"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "1037",
+			"totalRequestTime": "1037",
+			"iterationResults": {}
+		},
+		{
+			"name": "https://wtccrtoii5.execute-api.us-east-1.amazonaws.com/default/ffg-care-bnb-dev-userCreate",
+			"id": "49f92104-0b6f-2d8b-a6ed-ffcc43aa4932",
+			"url": "https://wtccrtoii5.execute-api.us-east-1.amazonaws.com/default/ffg-care-bnb-dev-userCreate",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"1219"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "1219",
+			"totalRequestTime": "1219",
+			"iterationResults": {}
+		},
+		{
+			"name": "https://utiio32r45.execute-api.us-east-1.amazonaws.com/default/ffg-care-bnb-dev-userRead",
+			"id": "f7aec11d-2a85-c6e3-abfe-355254180a02",
+			"url": "https://utiio32r45.execute-api.us-east-1.amazonaws.com/default/ffg-care-bnb-dev-userRead",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"1435"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "1435",
+			"totalRequestTime": "1435",
+			"iterationResults": {}
+		},
+		{
+			"name": "https://l08gi4nqr0.execute-api.us-east-1.amazonaws.com/default/ffg-care-bnb-dev-userDelete",
+			"id": "c86d3d9e-bec4-30d6-b739-ad81b385a562",
+			"url": "https://l08gi4nqr0.execute-api.us-east-1.amazonaws.com/default/ffg-care-bnb-dev-userDelete",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"1517"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "1517",
+			"totalRequestTime": "1517",
+			"iterationResults": {}
+		},
+		{
+			"name": "https://4s0vu060z1.execute-api.us-east-1.amazonaws.com/default/ffg-care-bnb-dev-userUpdate",
+			"id": "3642aba8-96e1-19f2-536b-43a437a6a12d",
+			"url": "https://4s0vu060z1.execute-api.us-east-1.amazonaws.com/default/ffg-care-bnb-dev-userUpdate",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"1483"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "1483",
+			"totalRequestTime": "1483",
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 0,
+	"totalFail": 0,
+	"totalTime": 6691,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "https://ej1jj44iye.execute-api.us-east-1.amazonaws.com/default/ffg-care-bnb-dev-ping",
+			"id": "ebd4ad22-89a3-27d1-7ddc-6d666826cb98",
+			"url": "https://ej1jj44iye.execute-api.us-east-1.amazonaws.com/default/ffg-care-bnb-dev-ping",
+			"time": "2018-07-29T04:06:41.502Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "https://wtccrtoii5.execute-api.us-east-1.amazonaws.com/default/ffg-care-bnb-dev-userCreate",
+			"id": "49f92104-0b6f-2d8b-a6ed-ffcc43aa4932",
+			"url": "https://wtccrtoii5.execute-api.us-east-1.amazonaws.com/default/ffg-care-bnb-dev-userCreate",
+			"time": "2018-07-29T04:06:41.502Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "https://utiio32r45.execute-api.us-east-1.amazonaws.com/default/ffg-care-bnb-dev-userRead",
+			"id": "f7aec11d-2a85-c6e3-abfe-355254180a02",
+			"url": "https://utiio32r45.execute-api.us-east-1.amazonaws.com/default/ffg-care-bnb-dev-userRead",
+			"time": "2018-07-29T04:06:41.502Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "https://l08gi4nqr0.execute-api.us-east-1.amazonaws.com/default/ffg-care-bnb-dev-userDelete",
+			"id": "c86d3d9e-bec4-30d6-b739-ad81b385a562",
+			"url": "https://l08gi4nqr0.execute-api.us-east-1.amazonaws.com/default/ffg-care-bnb-dev-userDelete",
+			"time": "2018-07-29T04:06:41.502Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "https://4s0vu060z1.execute-api.us-east-1.amazonaws.com/default/ffg-care-bnb-dev-userUpdate",
+			"id": "3642aba8-96e1-19f2-536b-43a437a6a12d",
+			"url": "https://4s0vu060z1.execute-api.us-east-1.amazonaws.com/default/ffg-care-bnb-dev-userUpdate",
+			"time": "2018-07-29T04:06:41.502Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		}
+	],
+	"synced": false
+}
