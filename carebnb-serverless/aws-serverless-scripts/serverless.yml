@@ -1,0 +1,51 @@
+service: ffg-care-bnb
+stage: dev
+region: us-east-1
+stack: ffg-care-bnb-ping
+app: care-bnb
+tenant: balaparthasoft
+provider:
+  name: aws
+  runtime: nodejs8.10
+  iamRoleStatements: # permissions for all of your functions can be set here
+      - Effect: Allow
+        Action: # Gives permission to DynamoDB tables in a specific region
+          - dynamodb:DescribeTable
+          - dynamodb:Query
+          - dynamodb:Scan
+          - dynamodb:GetItem
+          - dynamodb:PutItem
+          - dynamodb:UpdateItem
+          - dynamodb:DeleteItem
+        Resource: "arn:aws:dynamodb:us-east-1:*:*"
+functions:
+  ping:
+    handler: ffg-care-bnb-user-profile/status.ping
+    events:
+      - http:
+          path: ffg-care-bnb-user-profile
+          method: get
+  userCreate:
+    handler: ffg-care-bnb-user-profile/fn-user-create.create
+    events:
+      - http:
+          path: ffg-care-bnb-user-profile
+          method: get
+  userRead:
+    handler: ffg-care-bnb-user-profile/fn-user-read.read
+    events:
+      - http:
+          path: ffg-care-bnb-user-profile
+          method: get
+  userUpdate:
+    handler: ffg-care-bnb-user-profile/fn-user-update.update
+    events:
+      - http:
+          path: ffg-care-bnb-user-profile
+          method: get
+  userDelete:
+    handler: ffg-care-bnb-user-profile/fn-user-delete.delete
+    events:
+      - http:
+          path: ffg-care-bnb-user-profile
+          method: get
